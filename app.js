@@ -10,7 +10,7 @@ function init() {
 	document.siteName = $('title').html();
 	$('body').addClass("mdui-theme-primary-blue-grey mdui-theme-accent-blue");
 	var html = `
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Cari Judul..." title="Cari Judul...">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Proper File Name..." title="Search Proper File Name...">
 <header class="mdui-appbar mdui-color-theme"> 
    <div id="nav" class="mdui-toolbar mdui-container">
    </div> 
@@ -77,13 +77,13 @@ function list(path) {
 	  <ul class="mdui-list"> 
 	   <li class="mdui-list-item th"> 
 	    <div class="mdui-col-xs-12 mdui-col-sm-7">
-	     Nama Berkas
+	     File Name
 	    </div> 
 	    <div class="mdui-col-sm-3 mdui-text-right">
-	     Diunggah pada
+	     Upload on
 	    </div>
 	    <div class="mdui-col-sm-2 mdui-text-right">
-	     Ukuran
+	     Size
 	    </div> 
 	    </li> 
 	  </ul> 
