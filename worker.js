@@ -1,6 +1,6 @@
 var authConfig = {
-    "siteName": "FLMGdrive", // Site Name
-    "root_pass": "FLMGroup",  // Root Password
+    "siteName": "G-INDEX", // Site Name
+    "root_pass": "",  // Root Password
     "version" : "1.0.6", // Site Version
     "theme" : "material", // material  classic 
     "client_id": "202264815644.apps.googleusercontent.com",
@@ -20,7 +20,7 @@ var html = `
   <meta name="googlebot" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
   <title>${authConfig.siteName}</title>
-  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/fajarFWD/GOI/app.js"></script>
+  <script src="//cdn.jsdelivr.net/combine/gh/jquery/jquery@3.2/dist/jquery.min.js,gh/sam7oo/gindex/app.js"></script>
 </head>
 <body>
 </body>
